@@ -2318,7 +2318,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 1.8
   m_Radius: 0.28
-  m_SlopeLimit: 45
+  m_SlopeLimit: 70.78
   m_StepOffset: 0.25
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
@@ -2356,38 +2356,18 @@ MonoBehaviour:
   - Name: Min
     NetLOD: 0
     Frequency: -1
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   - Name: Low
     NetLOD: 1
     Frequency: 0
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   - Name: Mid
     NetLOD: 2
     Frequency: 0
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   - Name: High
     NetLOD: 3
     Frequency: 0
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   - Name: Max
     NetLOD: 4
     Frequency: 500
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   _firstPerson: 1
   FirstPersonCameraTarget: {fileID: 8601427865539017300}
   ThirdPersonCameraTarget: {fileID: 352513294090459949}
@@ -2403,10 +2383,13 @@ MonoBehaviour:
   BulletCollisionLayers:
     serializedVersion: 2
     m_Bits: 129
-  GunMagazineSize: 19
+  GunMagazineSize: 12
   GunFireTime: 0.2
   GunReloadTime: 2.35
   DistanceFromBody: 0.4
+  ZoomFov: 30
+  ZoomInTime: 0.2
+  ZoomOutTime: 0.18
   MaxHealth: 50
   Avatar: {fileID: 8601427866244821769}
   MoveSpeed: 2
@@ -2426,7 +2409,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
   - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
   FootstepAudioVolume: 0.5
-  JumpHeight: 1.2
+  JumpHeight: 2.5
   Gravity: -15
   JumpTimeout: 0.5
   FallTimeout: 0.15
@@ -2449,7 +2432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Multiplayer: {fileID: 0}
-  IsMe: 0
+  IsPossessor: 0
   IsPossessed: 0
   OnPossessed:
     m_PersistentCalls:
