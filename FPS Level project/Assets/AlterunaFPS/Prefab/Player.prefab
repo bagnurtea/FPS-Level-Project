@@ -2390,10 +2390,10 @@ MonoBehaviour:
   ZoomFov: 30
   ZoomInTime: 0.2
   ZoomOutTime: 0.18
-  MaxHealth: 50
+  MaxHealth: 75
   Avatar: {fileID: 8601427866244821769}
-  MoveSpeed: 2
-  SprintSpeed: 5.335
+  MoveSpeed: 3
+  SprintSpeed: 6.03
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
   LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
