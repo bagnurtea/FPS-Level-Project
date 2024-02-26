@@ -2385,7 +2385,7 @@ MonoBehaviour:
     m_Bits: 129
   GunMagazineSize: 12
   GunFireTime: 0.2
-  GunReloadTime: 2.35
+  GunReloadTime: 1.54
   DistanceFromBody: 0.4
   ZoomFov: 30
   ZoomInTime: 0.2
